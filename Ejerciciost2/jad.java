@@ -17,6 +17,7 @@ public class jad {
 
         System.out.println("Entero: " + (numeroEntero + numeroEntero));
         System.out.println("Decimal: " + numeroDecimal);
+        System.out.println("Nombre: " + nombre);
 
         teclado.close();
     }
