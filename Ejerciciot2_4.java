@@ -1,4 +1,4 @@
-public class Ejercicio4 {
+public class Ejerciciot2_4 {
     public static void main(String[] args) {
         float euros = 89.5f;
         int pesetas = (int) (euros * 166.386);

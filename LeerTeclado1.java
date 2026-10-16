@@ -4,7 +4,7 @@ public class LeerTeclado1 {
     
     public static void main(String[] args) {
 
-        try (Scanner teclado = new Scanner(System.in)) {
+        Scanner teclado = new Scanner(System.in);
             System.out.print("Introduce un número entero: ");
             int numeroEntero =  teclado.nextInt();
             
@@ -15,10 +15,10 @@ public class LeerTeclado1 {
             System.out.print("Introduce tu nombre: ");
             String nombre = teclado.nextLine();
             /*Al poner nextInt() y nextDouble() no hace falta poner parse pero la siguiente línea de código no funciona correctamente porque
-             nextInt() y nextDouble() arrastra el salto de línea, por lo que al poner nextLine() después de ellos, este se salta la lectura del nombre.*/
+            nextInt() y nextDouble() arrastra el salto de línea, por lo que al poner nextLine() después de ellos, este se salta la lectura del nombre.*/
             System.out.println("Entero: " + (numeroEntero + numeroEntero));
             System.out.println("Decimal: " + (numeroDecimal1 + numeroDecimal2));
             System.out.println("Nombre: " + nombre);
         }
     }
-}
+

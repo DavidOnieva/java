@@ -1,4 +1,4 @@
-public class Ejercicio6 {
+public class Ejerciciot2_6 {
 public static void main(String[] args) {
 double baseImponible = 100;
 System.out.printf("Base imponible %5.2f\n", baseImponible);

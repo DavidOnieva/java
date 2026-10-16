@@ -1,4 +1,4 @@
-public class Ejercicio3 {
+public class Ejerciciot2_3 {
 public static void main(String[] args) {
 String nombre = "David Onieva";
 String direccion = "Plaza Einstein, Granada, 18002";
