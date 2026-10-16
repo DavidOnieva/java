@@ -6,12 +6,12 @@ public class Ejerciciot3_1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Introduce el primer número: ");
-        int num1 = sc.nextInt();
+        double num1 = Double.parseDouble(sc.nextLine());
 
         System.out.print("Introduce el segundo número: ");
-        int num2 = sc.nextInt();
+        double num2 = Double.parseDouble(sc.nextLine());
 
-        int resultado = num1 * num2;
+        double resultado = num1 * num2;
 
         System.out.println("El resultado de la multiplicación es: " + resultado);
 
