@@ -10,7 +10,7 @@ public class Ejerciciot3_3 {
 
         double resultado = pesetas / 166.38;
 
-        System.out.println("El resultado es: " + resultado);
+        System.out.printf(" euros: %.2f%n", resultado);
 
         s.close(); 
     }

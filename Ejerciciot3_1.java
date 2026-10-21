@@ -13,7 +13,7 @@ public class Ejerciciot3_1 {
 
         double resultado = num1 * num2;
 
-        System.out.println("El resultado de la multiplicación es: " + resultado);
+        System.out.printf("El resultado de la multiplicación es: %.2f%n", resultado);
 
         sc.close();
     }

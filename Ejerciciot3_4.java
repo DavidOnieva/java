@@ -15,10 +15,10 @@ public class Ejerciciot3_4 {
         double rest = num1 - num2;
         double mult = num1 * num2;
         double div = num1 / num2;
-        System.out.println("El resultado de la suma es: " + sum);
-        System.out.println("El resultado de la resta es: " + rest);
-        System.out.println("El resultado de la multiplicación es: " + mult);
-        System.out.println("El resultado de la división es: " + div);
+        System.out.printf("El resultado de la suma es: %.2f%n", sum);
+        System.out.printf("El resultado de la resta es: %.2f%n", rest);
+        System.out.printf("El resultado de la multiplicación es: %.2f%n", mult);
+        System.out.printf("El resultado de la división es: %.2f%n", div);
 
         sc.close();
     }

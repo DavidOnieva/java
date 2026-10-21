@@ -10,7 +10,7 @@ public class Ejerciciot3_2 {
 
         double resultado = euros * 166.38;
 
-        System.out.println("El resultado es: " + resultado);
+        System.out.printf("pesetas: %.2f%n", resultado);
 
         s.close(); 
     }

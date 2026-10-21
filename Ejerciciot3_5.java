@@ -6,14 +6,14 @@ public class Ejerciciot3_5 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Introduce la base: ");
-        double num1 = Double.parseDouble(sc.nextLine());
+        double b = Double.parseDouble(sc.nextLine());
 
         System.out.print("Introduce la altura: ");
-        double num2 = Double.parseDouble(sc.nextLine());
+        double h = Double.parseDouble(sc.nextLine());
 
-        double resultado = num1 * num2;
+        double resultado = b * h;
 
-        System.out.println("El área del rectángulo es: " + resultado);
+        System.out.printf("El área del rectángulo es: %.2f%n", resultado);
 
         sc.close();
     }
