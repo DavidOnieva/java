@@ -1,4 +1,4 @@
-public class Ejercicio4t1 {
+public class Ejerciciot1_4 {
 public static void main(String[] args) {
 System.out.println("Lunes\tMartes\tMiérc.\tJueves.\tViernes");
 System.out.println("======\t=======\t======\t======\t======");

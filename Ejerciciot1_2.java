@@ -1,4 +1,4 @@
-public class Ejercicio2t1 {
+public class Ejerciciot1_2 {
     public static void main(String[] args) {
         System.out.println("David Onieva");
         System.out.println("+34 619352034");

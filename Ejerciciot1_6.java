@@ -1,4 +1,4 @@
-public class Ejercicio6t1 {
+public class Ejerciciot1_6 {
     public static void main(String[] args) {
         System.out.printf("%5s%n", "*");
         System.out.printf("%6s%n", "***");

@@ -1,4 +1,4 @@
-public class Ejercicio9t1 {
+public class Ejerciciot1_9 {
     public static void main(String[] args) {
 
         String rojo = "\033[31m";
