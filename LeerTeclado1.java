@@ -19,6 +19,7 @@ public class LeerTeclado1 {
             System.out.println("Entero: " + (numeroEntero + numeroEntero));
             System.out.println("Decimal: " + (numeroDecimal1 + numeroDecimal2));
             System.out.println("Nombre: " + nombre);
+            teclado.close();
         }
     }
 
