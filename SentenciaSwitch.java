@@ -8,40 +8,40 @@ public class SentenciaSwitch {
 
         switch (mes) {
             case "enero":
-                nombreDelMes = "enero";
+                nombreDelMes = "enero hace frío";
                 break;
             case "febrero":
-                nombreDelMes = "febrero";
+                nombreDelMes = "febrero Sam Valentín";
                 break;
             case "marzo":
-                nombreDelMes = "marzo";
+                nombreDelMes = "marzo empieza la primavera";
                 break;
             case "abril":
-                nombreDelMes = "abril";
+                nombreDelMes = "abril Semana Santa";
                 break;
             case "mayo":
-                nombreDelMes = "mayo";
+                nombreDelMes = "mayo cruces";
                 break;
             case "junio":
-                nombreDelMes = "junio";
+                nombreDelMes = "junio verano";
                 break;
             case "julio":
-                nombreDelMes = "julio";
+                nombreDelMes = "julio vacaciones";
                 break;
             case "agosto":
-                nombreDelMes = "agosto";
+                nombreDelMes = "agosto viajes";
                 break;
             case "septiembre":
-                nombreDelMes = "septiembre";
+                nombreDelMes = "septiembre vuelta al cole";
                 break;
             case "octubre":
-                nombreDelMes = "octubre";
+                nombreDelMes = "octubre Halloween";
                 break;
             case "noviembre":
-                nombreDelMes = "noviembre";
+                nombreDelMes = "noviembre puente de todos los santos";
                 break;
             case "diciembre":
-                nombreDelMes = "diciembre";
+                nombreDelMes = "diciembre Navidad";
                 break;
             default:
                 nombreDelMes = "no existe ese mes";
